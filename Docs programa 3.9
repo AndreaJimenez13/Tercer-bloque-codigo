@@ -1,0 +1,23 @@
+Comparación de listas con == (igualdad):
+
+
+puntos = [10, 30, 20]
+puntos_2 = [10, 30, 20]
+ordenados = [10, 20, 30]
+puntos_textos = ["10", "20", "30"]
+
+print(puntos == puntos_2)  
+print(puntos == ordenados)  
+print(puntos == "puntos_textos")  
+puntos == puntos_2: Compara si las listas puntos y puntos_2 tienen los mismos elementos, en el mismo orden. El resultado será True porque ambas listas contienen los mismos elementos en el mismo orden.
+puntos == ordenados: Compara si las listas puntos y ordenados son iguales. El resultado será False porque aunque ambas listas tienen los mismos números, el orden es diferente.
+puntos == "puntos_textos": Compara si la lista puntos es igual al string "puntos_textos". El resultado será False porque están comparando un tipo de datos diferente: una lista y un string.
+Comparación de listas con != (desigualdad):
+
+
+print(puntos != puntos_2)  
+print(puntos != ordenados) 
+print(puntos != puntos_textos)  
+puntos != puntos_2: Compara si las listas puntos y puntos_2 son diferentes. El resultado será False porque ambas listas son iguales.
+puntos != ordenados: Compara si las listas puntos y ordenados son diferentes. El resultado será True porque las listas tienen el mismo contenido pero en orden diferente.
+puntos != puntos_textos: Compara si la lista puntos es diferente de la lista puntos_textos. El resultado será True porque aunque ambas listas contienen números, uno es una lista de enteros y el otro de cadenas de texto.
