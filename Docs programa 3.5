@@ -1,0 +1,32 @@
+Entrada de la calificación:
+
+
+calificaciones = int(input("Ingresa tu calificación para evaluar tu desempeño:"))
+El programa solicita al usuario que ingrese su calificación, que se convierte a un número entero utilizando int().
+
+Evaluación del desempeño:
+
+Si la calificación es menor o igual a 60, se considera insuficiente:
+
+if calificaciones <= 60:
+    print("Insuficiente")
+Si la calificación está entre 70 y 79 (inclusive), se considera suficiente:
+
+elif calificaciones >= 70 and calificaciones <= 79:
+    print("Suficiente")
+Si la calificación está entre 80 y 89 (inclusive), se considera muy bien:
+
+elif calificaciones >= 80 and calificaciones <= 89:
+    print("Muy bien!")
+Si la calificación está entre 90 y 95 (inclusive), se considera notable:
+
+elif calificaciones >= 90 and calificaciones <= 95:
+    print("Notable!")
+Si la calificación es mayor a 95, se considera excelente:
+
+else:
+    print("Excelente")
+Mensaje final:
+
+print("!Gracias por usar mi sistema de evaluación¡")
+El programa imprime un mensaje de agradecimiento después de mostrar la evaluación.
