@@ -1,0 +1,30 @@
+Definición de la lista nombre:
+
+nombre = ["Choto", "Emiliano", "Luis"]
+Se define una lista llamada nombre que contiene tres cadenas: "Choto", "Emiliano" y "Luis".
+
+Uso del operador in: El operador in se usa para verificar si un valor específico está presente en una lista. Si el valor está en la lista, la expresión devuelve True; de lo contrario, devuelve False.
+
+"Luis" in nombre:
+
+
+print("Luis" in nombre)  # Evaluará a True
+Verifica si "Luis" está en la lista nombre. Como "Luis" es uno de los elementos de la lista, el resultado será True.
+
+"Emi" in nombre:
+
+
+print("Emi" in nombre)  # Evaluará a False
+Verifica si "Emi" está en la lista nombre. Dado que "Emi" no coincide exactamente con ninguno de los elementos de la lista, el resultado será False.
+
+"Javier" in nombre:
+
+
+print("Javier" in nombre)  # Evaluará a False
+Verifica si "Javier" está en la lista nombre. Como "Javier" no es un elemento de la lista, el resultado será False.
+
+"Jose" in nombre:
+
+
+print("Jose" in nombre)  # Evaluará a False
+Verifica si "Jose" está en la lista nombre. Como "Jose" no es un elemento de la lista, el resultado será False.
