@@ -1,0 +1,19 @@
+Eliminar el último elemento de la lista:
+
+nombres = ['andrea', 'marifer', 'adan', 'lucero', 'nena']
+
+# Eliminar el último elemento (sin pasar un índice)
+elemento_eliminado = nombres.pop()
+print("Elemento eliminado:", elemento_eliminado)  # Imprime el elemento eliminado: 'nena'
+print("\nLista después de eliminar el último elemento:", nombres)  # Imprime la lista sin el último elemento
+nombres.pop() elimina y devuelve el último elemento de la lista. En este caso, "nena" es el último elemento de la lista.
+Después de eliminar el último elemento, se imprime el nombre eliminado y la lista actualizada.
+Eliminar un elemento en un índice específico:
+
+
+# Eliminar un elemento en un índice específico (por ejemplo, índice 2)
+elemento_eliminado = nombres.pop(2)
+print("Elemento eliminado en el índice 2:", elemento_eliminado)  # Imprime el elemento eliminado: 'adan'
+print("\nLista después de eliminar el elemento en el índice 2:", nombres)  # Imprime la lista sin el elemento en el índice 2
+nombres.pop(2) elimina y devuelve el elemento en el índice 2. En este caso, "adan" es el elemento en el índice 2 de la lista original.
+Luego, se imprime el elemento eliminado y la lista actualizada.
