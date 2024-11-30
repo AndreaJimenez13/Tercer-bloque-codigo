@@ -1,0 +1,31 @@
+Indexación:
+
+Acceso a elementos usando índices:
+
+print("Indexing")
+numeros = [10, 20, 30]
+print(numeros[2])  # Imprime el tercer elemento (índice 2), es decir, 30
+print(numeros[0])  # Imprime el primer elemento (índice 0), es decir, 10
+print(numeros[1])  # Imprime el segundo elemento (índice 1), es decir, 20
+En Python, las listas son indexadas, lo que significa que cada elemento de la lista tiene un número asociado (su índice), comenzando desde 0. En este caso, numeros[0] accede al primer elemento (10), numeros[1] al segundo (20) y numeros[2] al tercero (30).
+
+Indexación negativa:
+
+
+print(numeros[-1])  # Imprime el último elemento de la lista (índice -1), es decir, 30
+La indexación negativa permite acceder a los elementos de la lista desde el final. numeros[-1] accede al último elemento de la lista.
+
+Subscriptado (Slicing):
+
+Obtener un subconjunto de la lista:
+
+print("\nSubscripting")
+nombres = ["Chorchis", "Choto", "Emiliano", "Pepe el toro"]
+print(nombres[1:])  # Imprime desde el segundo elemento hasta el final: ['Choto', 'Emiliano', 'Pepe el toro']
+print(nombres[1:5])  # Imprime desde el segundo hasta el quinto (no inclusivo): ['Choto', 'Emiliano', 'Pepe el toro']
+print(nombres[-2:])  # Imprime los dos últimos elementos: ['Emiliano', 'Pepe el toro']
+El subscriptado (slicing) se usa para obtener una porción de la lista. El formato básico es lista[inicio:fin], donde:
+inicio: es el índice donde comienza el sub-conjunto (incluido).
+fin: es el índice donde termina el sub-conjunto (sin incluir el elemento en el índice fin).
+Si el fin se omite, se toma hasta el final de la lista.
+Si el inicio es negativo, comienza desde el final de la lista.
