@@ -1,0 +1,36 @@
+Entrada de ingresos:
+
+ingresos = input("Cuales son sus ingresos:")
+ingresos = float(ingresos)
+Se solicita al usuario que ingrese sus ingresos. El valor ingresado se convierte de cadena a número flotante (float) para poder realizar los cálculos.
+
+Cálculo del impuesto:
+
+Si los ingresos son menores o iguales a 1000, se aplica un impuesto del 5%:
+
+if ingresos <= 1000:
+    impuesto = ingresos * 0.05
+Si los ingresos están entre 1001 y 2500, se aplica un impuesto del 8%:
+
+elif ingresos > 1000 and ingresos <= 2500:
+    impuesto = ingresos * 0.08
+Si los ingresos están entre 2501 y 6000, se aplica un impuesto del 12%. Sin embargo, hay un error en esta parte del código donde no se está asignando correctamente el valor del impuesto:
+
+elif ingresos > 2500 and ingresos <= 6000:
+    ingresos > ingresos * 0.12  # Error en esta línea
+El operador > no debe usarse aquí; en lugar de eso, debería asignarse el impuesto a la variable impuesto. La línea correcta sería:
+
+impuesto = ingresos * 0.12
+Si los ingresos son mayores a 6000, se aplica un impuesto del 15%:
+
+else:
+    impuesto = ingresos * 0.15
+Cálculo del salario final:
+
+salario_total = ingresos - impuesto
+El salario final se calcula restando el impuesto de los ingresos.
+
+Salida del resultado:
+
+print("Tus impuestos son " + str(impuesto) + " y tu salario final es " + str(salario_total))
+El programa imprime el impuesto calculado y el salario final, convirtiendo ambos valores a cadenas para su visualización.
