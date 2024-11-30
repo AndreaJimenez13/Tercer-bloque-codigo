@@ -1,0 +1,29 @@
+Unir cadenas en una lista utilizando .append():
+
+
+print("Muestra como unir cadenas con .append une al color Verde ven la lista:")
+colores = ["rojo", "azul"]
+print(colores)  # Imprime la lista original ["rojo", "azul"]
+colores.append("Verde")  # Agrega el color "Verde" al final de la lista
+print(colores)  # Imprime la lista actualizada ["rojo", "azul", "Verde"]
+Se define una lista llamada colores que inicialmente contiene los colores "rojo" y "azul".
+Se utiliza el método .append("Verde") para agregar el color "Verde" al final de la lista.
+La lista colores se imprime antes y después de agregar el nuevo color, mostrando cómo se actualiza la lista con el nuevo elemento.
+Error de concatenación de una lista y una cadena de texto:
+
+
+# print(colores + "Amarillo")  # Esto genera un error
+El código comentado intenta concatenar una lista (colores) con una cadena de texto ("Amarillo"), lo cual genera un error. Python no permite la concatenación directa de una lista con una cadena utilizando el operador + porque son tipos de datos incompatibles.
+Solución: Si se desea agregar una cadena a la lista, se debe usar .append(), como se hizo en el primer ejemplo.
+Unir cadenas en una lista utilizando .append() en otro caso:
+
+
+print("\n")
+print("Muestra como unir cadenas con .append une a Caramelos en la lista:")
+dulces = ["Chicles", "Churros", "Gomitas"]
+print(dulces)  # Imprime la lista original ["Chicles", "Churros", "Gomitas"]
+dulces.append("Caramelos")  # Agrega "Caramelos" al final de la lista
+print(dulces)  # Imprime la lista actualizada ["Chicles", "Churros", "Gomitas", "Caramelos"]
+Se define una lista llamada dulces que contiene tres elementos: "Chicles", "Churros" y "Gomitas".
+Se agrega el elemento "Caramelos" al final de la lista utilizando .append("Caramelos").
+La lista dulces se imprime antes y después de agregar el nuevo dulce, mostrando cómo se actualiza la lista con el nuevo elemento.
