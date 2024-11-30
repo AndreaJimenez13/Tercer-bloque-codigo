@@ -1,0 +1,22 @@
+Entrada del usuario:
+
+nombre = input("Ingresa el tipo de mascota que tienes:  ")
+Aquí, el programa solicita al usuario que ingrese el tipo de mascota que tiene (por ejemplo, "perro", "gato", etc.).
+
+Condición 1: Si es un perro:
+
+if "perro" in nombre:
+    print ("Es un perro")
+Verifica si la palabra "perro" está contenida en el texto ingresado por el usuario. Si es así, imprime "Es un perro".
+
+Condición 2: Si es un gato:
+
+elif "gato" in nombre:
+    print("Es un gato")
+Si la primera condición no se cumple, verifica si la palabra "gato" está contenida en el texto ingresado. Si es así, imprime "Es un gato".
+
+Caso por defecto: Mascota desconocida:
+
+else:
+    print("Mascota desconocida")
+Si ninguna de las condiciones anteriores se cumple, el programa imprime "Mascota desconocida", indicando que no se pudo identificar la mascota.
